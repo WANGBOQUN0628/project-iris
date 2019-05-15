@@ -5,7 +5,7 @@ A classic supervised learning project of data science
 
 * [Iris dataset](#iris-dataset)
 * [Exploratory Data Analysis](#exploratory-data-analysis)
-* [What is Data Science?](#what-is-data-science)
+* [Classification](#classification)
 * [Colleges](#colleges)
 * [MOOC's](#moocs)
 * [Data Sets ](#data-sets)
@@ -35,3 +35,9 @@ As you can see in the file, both the feature and target data are provided as Num
 In order to perform some initial **Exploratory Data Analysis(EDA)**, we will assign the feature and target data to X and y, respectively. We will then build a DataFrame using the feature data and also passing columns names. Viewing the head of the DataFrame shows us the first five rows.
 
 Then we do a bit of **visual EDA**. We use the pandas function 'scatter_matrix' to visualize our dataset. As you can see in the file, we pass it to our DataFrame, along with our target variable as argument to the parameter c which stand for color ensuring that our datapoints in our figure will be colored by the species. We will also pass a list to 'figsize', which specifies the size of our figure, as well as a marker size and shape. The result is a matrix of figures, which on the diagonal are histograms of the features corresponding to the row and column. The off-diagonal figures are scatter plots of the column feature versus row feature colored by the target variable. From the 'scatter matrix', we can see that the petal width and length are highly correlated and the flowers are clustered according to species.
+
+
+## Classification
+
+*This is a specification of the file **Iris_classifier**. You will need to check the results in that fiel.*
+
