@@ -39,5 +39,5 @@ Then we do a bit of **visual EDA**. We use the pandas function 'scatter_matrix' 
 
 ## Classification
 
-*This is a specification of the file **Iris_classifier**. You will need to check the results in that fiel.*
+*This is a specification of the file **Iris_classifier**. You will need to check the results in that file.*
 
