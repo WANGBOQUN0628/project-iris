@@ -6,12 +6,7 @@ A classic supervised learning project of data science
 * [Iris dataset](#iris-dataset)
 * [Exploratory Data Analysis](#exploratory-data-analysis)
 * [Classification](#classification)
-* [Colleges](#colleges)
-* [MOOC's](#moocs)
-* [Data Sets ](#data-sets)
-* [Bloggers](#bloggers)
-* [Podcasts](#podcasts)
-* [Books](#books)
+
 
 
 ## Iris dataset
@@ -40,4 +35,11 @@ Then we do a bit of **visual EDA**. We use the pandas function 'scatter_matrix' 
 ## Classification
 
 *This is a specification of the file **Iris_classifier**. You will need to check the results in that file.*
+
+We have a set of labeled data and we want to build a classifier that takes unlabeled data as input and outputs a label. So how do we construct this classifier? We first need to choose a type of classifier and it needs to learn from the already labeled data which is known as the training data. We will choose a simple algorithm called K-nearest neighbors. The basic idea of the K-nearest neighbors, or KNN, is to predict the label of any data point by looking at the K, for example, 3, closest labeled data points and getting them to vote on what label the unlabeled point should have.
+
+All machine learning models in scikit-learn are implemented as python classes. These classes serve two purposes: they implement the algorithms for learning a model, and predicting, while also storing all the information that is learned from the data. Training a model on the data is also called fitting the model to the data. In scikit-learn, we use the fit method to do this. Similarly, the predict method is what we use to predict the label of an unlabeled data point.
+
+We use the train_test_split method to split the data into training data(75%) and test data(25%). Then we fit them into a KNeighborsClassifier whose numbers of neighbors equal to 9. After testing the classifier, we can see the score of accuracy is 0.9737. In order to choose the best number of neighbors to get the best classifier, we draw plots with different test data propotions in the next blocks to check the answer. Obviously, the best number of neighbors of this model is 5.
+
 
