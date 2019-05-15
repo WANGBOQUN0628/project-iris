@@ -4,7 +4,7 @@ A classic supervised learning project of data science
 ### Table of contents
 
 * [Iris dataset](#iris-dataset)
-* [Iris EDA](#iris-eda)
+* [Exploratory Data Analysis](#exploratory-data-analysis)
 * [What is Data Science?](#what-is-data-science)
 * [Colleges](#colleges)
 * [MOOC's](#moocs)
@@ -21,7 +21,7 @@ Iris dataset contains data pertaining to iris flowers in which the features cons
 As this is one of the datasets included in scikit-learn, we will import it from the scikit-learn and it will not be included in the project files.
 
 
-## Iris EDA
+## Exploratory Data Analysis
 
 *This is a specification of the file **Iris_EDA.ipynb**. You will need to check the results in that file.*
 
